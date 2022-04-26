@@ -1,13 +1,24 @@
 .container {
     display: grid;
     grid-template-columns: repeat(16, 1fr);
-    color: red; 
-    border: solid 5px;
-    padding: 10px;
     
 }
-div   {
-    border: solid 5px;
-    color: blue; 
+h1 {
+    margin: auto;
 
+}
+
+div   {
+    display: grid;
+    width:25px;
+    height: 25px;
+}
+
+div2 {
+    /* padding-top: 30px; */
+    border: solid 1px;
+    color: rgb(54, 36, 36); 
+    display: grid;
+    width:25px;
+    height: 25px;
 }
