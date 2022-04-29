@@ -1,23 +1,24 @@
 .container {
     display: grid;
-    grid-template-columns: repeat(2000, 1fr);
-    
+    grid-template-columns:repeat(64, 1fr); 
+ 
 }
-h1 {
-    margin: auto;
-
-}
-
-div   {
-    width:30px;
-    height: 25px;
-    
-}
-
 div2 {
-    border: solid 0.5px;
-    color: rgb(54, 36, 36); 
+    border: solid 0.1px;
+    color: #424242;
     display: grid;
     width:30px;
     height: 25px;
+    box-sizing: border-box  
+}
+
+.buttonbox {
+    display: flex;
+    width: 500px;
+
+}
+.reset, .smol, .med, .large {
+    padding: 5px;
+
+
 }
