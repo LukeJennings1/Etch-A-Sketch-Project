@@ -1,15 +1,19 @@
 .container {
     display: grid;
-    grid-template-columns:repeat(64, 1fr); 
+    grid-template-columns:repeat(64, 1fr);
+    width: 700px;
+    height: 700px; 
  
+}
+div {
+    display: grid;
+    box-sizing: border-box;
+    
 }
 div2 {
     border: solid 0.1px;
     color: #424242;
-    display: grid;
-    width:30px;
-    height: 25px;
-    box-sizing: border-box  
+    box-sizing: border-box;
 }
 
 .buttonbox {

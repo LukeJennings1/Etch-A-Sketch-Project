@@ -4,24 +4,28 @@ const button64 = document.querySelector('.large');
 const button = document.querySelector('.reset');
 const container = document.querySelector('.container');
 
-// let randomColor = Math.floor(Math.random()*);
 
 function row(num, columns){
 for (let i = 0; i < num; i++){
-    const div = document.createElement('div');
+    const test = 700/num;
+    const div = document.createElement('div')
     container.appendChild(div);
+    div.style.width = test + 'px'; 
+    div.style.height = test + 'px'; 
 
 for (let i = 0; i < columns; i++){
-    const div2 = document.createElement('div2');
+    const div2 = document.createElement('div2', );
     div.appendChild(div2);
+    div2.style.width = test + 'px';
+    div2.style.height = test + 'px'; 
 }
 }
 }
-
 hover(row(16, 16))
 button16.addEventListener('click', () => {
     clearGrid();
     hover(row(16, 16))
+    
 });
 button24.addEventListener('click', () => {
     clearGrid();
