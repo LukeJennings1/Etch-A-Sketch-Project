@@ -1,14 +1,22 @@
+body {
+    background-color: #e0e0e0;
+}
+h1 {
+    display: block;
+ margin-left: 789px;
+}
 .container {
     display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
     grid-template-columns:repeat(64, 1fr);
     width: 700px;
     height: 700px; 
- 
 }
 div {
     display: grid;
-    box-sizing: border-box;
-    
+    box-sizing: border-box;  
 }
 div2 {
     border: solid 0.1px;
@@ -18,11 +26,27 @@ div2 {
 
 .buttonbox {
     display: flex;
+    margin-top: 20px;
     width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 705px;
+    gap: 10px;
 
 }
 .reset, .smol, .med, .large {
     padding: 5px;
+    background-color: #e0e0e0;
+    color: black;
+    border: 2px solid #000000;
+    border-radius: 50px;
+    transition-duration: 0.4s;
+    font-size: 20px;
 
 
+}
+.reset:active, .smol:active, .med:active, .large:active {
+    background-color: #767c76;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px)
 }

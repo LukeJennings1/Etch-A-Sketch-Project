@@ -46,7 +46,7 @@ wrapper2.forEach(wrapper2 => wrapper2.addEventListener('mouseenter', () => {
 }));
 
 wrapper2.forEach(wrapper2 => button.addEventListener("click", () => {
-    wrapper2.style.backgroundColor = 'white';
+    wrapper2.style.backgroundColor = '#e0e0e0';
 }));
 }
 function clearGrid() {          /* innerHTML is all the html elements including all spacing etc inside html tags*/
