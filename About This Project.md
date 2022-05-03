@@ -2,7 +2,7 @@
 
 This is my interactive Etch-A-Sketch Project. 
 
-The grid starts at 16x16 with additional grid sizes of 24x24 and 64x64 availble using the buttons located at the bottom of the grid. 
+The grid starts at 16x16 with additional grid sizes of 24x24 and 64x64 available using the buttons located at the bottom of the grid. 
 You can clear the grid using the 'clear grid' button at the bottom of the page. 
 
 What did I find difficult in this project?
