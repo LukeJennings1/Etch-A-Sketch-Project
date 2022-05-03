@@ -5,7 +5,7 @@ This is my interactive Etch-A-Sketch Project.
 The grid starts at 16x16 with additional grid sizes of 24x24 and 64x64 availble using the buttons located at the bottom of the grid. 
 You can clear the grid using the 'clear grid' button at the bottom of the page. 
 
-What I found difficult in this project?
+What did I find difficult in this project?
 
 Scaling the grid so that the grid box dimension does not increase - This was resolved by adding dimensions to each grid box when it is made in the for loop it scales each box to fit the 700 x 700px overall grid size (meaning the indivisual grid boxes get smaller to match the container and not the container getting bigger to match the boxes size)  
 
